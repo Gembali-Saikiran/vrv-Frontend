@@ -1,0 +1,115 @@
+.admin-dashboard {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 800px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    color: #4a4a4a;
+    text-align: center;
+  }
+  
+  .add-user, .user-activity {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .add-user input,
+  .add-user select {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .add-user button {
+    padding: 8px 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+  }
+  
+  .add-user button:hover {
+    background-color: #45a049;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .user-list li span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .user-list button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .user-list button:first-child {
+    background-color: #008cba;
+    color: #fff;
+  }
+  
+  .user-list button:first-child:hover {
+    background-color: #007bb5;
+  }
+  
+  .user-list button:last-child {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .user-list button:last-child:hover {
+    background-color: #d32f2f;
+  }
+  
+  .user-activity {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .user-activity p {
+    color: #555;
+    margin: 10px 0;
+  }
+  

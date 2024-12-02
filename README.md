@@ -95,23 +95,4 @@ src/
 
 ---
 
-## **Contributing**
-
-We welcome contributions! Follow these steps to contribute:
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Added feature-name"
-   ```
-4. Push your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request on GitHub.
-
----
 
